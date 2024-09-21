@@ -3,6 +3,7 @@ import {createBrowserRouter,createRoutesFromElements,RouterProvider,Route} from 
 import SignupPage from './Pages/Signup';
 import First from './Pages/First';
 import LoginPage from './Pages/Login';
+import Certificate from './Pages/Certificate';
 
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
         <Route path="/"></Route>
         <Route index element={<First />} />
         <Route path="/sign-up" element={<SignupPage />} />
-        <Route path="/login" element={<LoginPage/>} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/certificate" element={<Certificate />} />
       </>
     )
   );
